@@ -744,7 +744,7 @@ span {
     
     .home .profession-container .overlay {
         position: fixed;
-        top: 65rem;
+        top: 50rem;
         left: 50%;
         right: 30%;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -795,85 +795,81 @@ span {
       }
 }
 
-/* Add this CSS to your existing style.css file or create a new one */
-
-/* Mobile-first approach */
 @media only screen and (max-width: 600px) {
 
   
-    /* Adjust logo */
+ 
     .logo {
       margin-bottom: 20px;
     }
-    /* Adjust home section */
+   
     .home {
       padding: 50px 20px;
     }
   
-    /* Adjust home content */
+ 
     .home-content {
       text-align: center;
     }
   
-    /* Adjust social media icons */
+  
     .social-media {
       margin-bottom: 20px;
     }
   
-    /* Adjust profession container */
+
     .profession-container {
       position: relative;
       margin-top: 20px;
     }
   
-    /* Adjust profession box */
+
     .profession-box {
       flex-direction: column;
       align-items: center;
       margin-bottom: 20px;
     }
   
-     /* Adjust about section */
+  
     .about {
       flex-direction: column;
     }
   
-    /* Adjust about image */
+
     .about-img {
       order: -1;
       margin-left: -10rem;
     } 
-    /* Adjust about content */
     .about-content {
       text-align: center;
     }
   
-    /* Adjust skills section */
+   
     .skills-container {
       flex-direction: column;
     }
   
-    /* Adjust skills box */
+   
     .skills-box {
       margin-bottom: 20px;
     }
   
-    /* Adjust portfolio section */
+    
     .portfolio-container {
       flex-direction: column;
     }
   
-    /* Adjust portfolio box */
+  
     .portfolio-box {
       margin-bottom: 20px;
     }
   
-    /* Adjust contact section */
+   
     .contact {
       padding: 50px 20px;
     }
   
-    /* Adjust footer */
+   
     .footer {
       padding: 20px;
       text-align: center;
